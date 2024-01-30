@@ -31,7 +31,7 @@ O programa utiliza a biblioteca PyAutoGUI para simular interações de mouse e t
 5. Execute o seguinte comando no terminal para iniciar o programa:
 
     ```
-    python main.py
+    python Refresh_Shop_App.py
     ```
 
 6. Na interface do programa, insira o número desejado de atualizações da loja e clique no botão "Refresh Shop" para iniciar o processo de automação.
