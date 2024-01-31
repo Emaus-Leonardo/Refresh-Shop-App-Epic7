@@ -31,8 +31,6 @@ mystic_count = 0
 running = True
 
 # Definição da classe principal do aplicativo Kivy
-
-
 class RefreshShopApp(MDApp):
     def build(self):
         # Configurações iniciais do aplicativo
