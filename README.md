@@ -37,6 +37,12 @@ O programa utiliza a biblioteca PyAutoGUI para simular interações de mouse e t
 6. Na interface do programa, insira o número desejado de atualizações da loja e clique no botão "Refresh Shop" para iniciar o processo de automação.
 7. Para interromper a automação antes que o número especificado de atualizações seja concluído, clique no botão "Stop Refresh".
 
+Alternativamente, basta colocar o atalho fornecido na pasta com ícone da Luluca ML na área de trabalho para que o programa funcione normalmente.
+
+Na interface do programa, insira o número desejado de atualizações da loja e clique no botão "Refresh Shop" para iniciar o processo de automação.
+
+Para interromper a automação antes que o número especificado de atualizações seja concluído, clique no botão "Stop Refresh".
+
 
 ## Configurando a Resolução do Emulador LDPlayer
 
