@@ -54,7 +54,9 @@ Se você estiver utilizando o emulador LDPlayer para executar o programa em um a
 
 3. **Selecione a resolução desejada**: Escolha a resolução desejada para o seu ambiente de teste. Você pode selecionar uma das resoluções predefinidas ou definir uma resolução personalizada.
 
-4. **Aplique as alterações e reinicie o emulador**: Após selecionar a resolução desejada, aplique as alterações e reinicie o emulador para que as novas configurações entrem em vigor.
+4. OBS: troque a resolução para 1600 x 900 para que o programa funcione corretamente.
+
+5. **Aplique as alterações e reinicie o emulador**: Após selecionar a resolução desejada, aplique as alterações e reinicie o emulador para que as novas configurações entrem em vigor.
 
 Com a resolução do emulador configurada para corresponder à resolução esperada pelo seu programa, você poderá testar e executar o programa com mais precisão e confiabilidade.
 
