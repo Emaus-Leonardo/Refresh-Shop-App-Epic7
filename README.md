@@ -38,25 +38,20 @@ O programa utiliza a biblioteca PyAutoGUI para simular interações de mouse e t
 7. Para interromper a automação antes que o número especificado de atualizações seja concluído, clique no botão "Stop Refresh".
 
 
-## Configuração da Resolução
+## Configurando a Resolução do Emulador LDPlayer
 
-O programa está configurado para funcionar em telas com resolução de 1600 x 900 pixels. Se você estiver usando uma resolução diferente, pode ser necessário ajustar o código para garantir que as interações de mouse e o posicionamento de elementos da interface gráfica ocorram corretamente.
+Se você estiver utilizando o emulador LDPlayer para executar o programa em um ambiente de desenvolvimento, pode ser útil ajustar a resolução do emulador para corresponder à resolução esperada pelo programa. Aqui está um guia rápido sobre como fazer isso:
 
-## Modificando para Outras Resoluções
+1. **Abra as configurações do emulador**: No LDPlayer, abra o menu lateral e clique no ícone de engrenagem para abrir as configurações do emulador.
 
-Para modificar o programa para funcionar em resoluções maiores ou menores, você pode ajustar os valores de coordenadas usados para interações de mouse e o layout da interface gráfica. 
+2. **Acesse as configurações de resolução**: Dentro das configurações, localize a seção relacionada à resolução da tela. Isso pode estar sob uma categoria como "Tela" ou "Exibição".
 
-Por exemplo, se a resolução da sua tela for maior que 1600 x 900, você pode precisar aumentar os valores de deslocamento usados nas chamadas `pg.moveRel()` para garantir que o mouse clique nos elementos corretos na tela. Se a resolução for menor, você pode precisar diminuir esses valores.
+3. **Selecione a resolução desejada**: Escolha a resolução desejada para o seu ambiente de teste. Você pode selecionar uma das resoluções predefinidas ou definir uma resolução personalizada.
 
-Certifique-se de testar o programa em diferentes resoluções para garantir que ele funcione conforme o esperado.
+4. **Aplique as alterações e reinicie o emulador**: Após selecionar a resolução desejada, aplique as alterações e reinicie o emulador para que as novas configurações entrem em vigor.
 
-### Exemplo de Ajuste para Outras Resoluções
+Com a resolução do emulador configurada para corresponder à resolução esperada pelo seu programa, você poderá testar e executar o programa com mais precisão e confiabilidade.
 
-```python
-# Ajuste os valores de deslocamento para a sua resolução
-pg.moveTo(mystic)
-pg.moveRel(1000, 30)  # Ajuste o valor X
-```
 
 ## Contribuindo
 
