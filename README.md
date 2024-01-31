@@ -31,32 +31,35 @@ O programa utiliza a biblioteca PyAutoGUI para simular interações de mouse e t
 5. Execute o seguinte comando no terminal para iniciar o programa:
 
     ```
-    python main.py
+    python Refresh_Shop_App.py
     ```
 
 6. Na interface do programa, insira o número desejado de atualizações da loja e clique no botão "Refresh Shop" para iniciar o processo de automação.
 7. Para interromper a automação antes que o número especificado de atualizações seja concluído, clique no botão "Stop Refresh".
 
+Alternativamente, basta colocar o atalho fornecido na pasta com ícone da Luluca ML na área de trabalho para que o programa funcione normalmente.
 
-## Configuração da Resolução
+Na interface do programa, insira o número desejado de atualizações da loja e clique no botão "Refresh Shop" para iniciar o processo de automação.
 
-O programa está configurado para funcionar em telas com resolução de 1600 x 900 pixels. Se você estiver usando uma resolução diferente, pode ser necessário ajustar o código para garantir que as interações de mouse e o posicionamento de elementos da interface gráfica ocorram corretamente.
+Para interromper a automação antes que o número especificado de atualizações seja concluído, clique no botão "Stop Refresh".
 
-## Modificando para Outras Resoluções
 
-Para modificar o programa para funcionar em resoluções maiores ou menores, você pode ajustar os valores de coordenadas usados para interações de mouse e o layout da interface gráfica. 
+## Configurando a Resolução do Emulador LDPlayer
 
-Por exemplo, se a resolução da sua tela for maior que 1600 x 900, você pode precisar aumentar os valores de deslocamento usados nas chamadas `pg.moveRel()` para garantir que o mouse clique nos elementos corretos na tela. Se a resolução for menor, você pode precisar diminuir esses valores.
+Se você estiver utilizando o emulador LDPlayer para executar o programa em um ambiente de desenvolvimento, pode ser útil ajustar a resolução do emulador para corresponder à resolução esperada pelo programa. Aqui está um guia rápido sobre como fazer isso:
 
-Certifique-se de testar o programa em diferentes resoluções para garantir que ele funcione conforme o esperado.
+1. **Abra as configurações do emulador**: No LDPlayer, abra o menu lateral e clique no ícone de engrenagem para abrir as configurações do emulador.
 
-### Exemplo de Ajuste para Outras Resoluções
+2. **Acesse as configurações de resolução**: Dentro das configurações, localize a seção relacionada à resolução da tela. Isso pode estar sob uma categoria como "Tela" ou "Exibição".
 
-```python
-# Ajuste os valores de deslocamento para a sua resolução
-pg.moveTo(mystic)
-pg.moveRel(1000, 30)  # Ajuste o valor X
-```
+3. **Selecione a resolução desejada**: Escolha a resolução desejada para o seu ambiente de teste. Você pode selecionar uma das resoluções predefinidas ou definir uma resolução personalizada.
+
+4. OBS: troque a resolução para 1600 x 900 para que o programa funcione corretamente.
+
+5. **Aplique as alterações e reinicie o emulador**: Após selecionar a resolução desejada, aplique as alterações e reinicie o emulador para que as novas configurações entrem em vigor.
+
+Com a resolução do emulador configurada para corresponder à resolução esperada pelo seu programa, você poderá testar e executar o programa com mais precisão e confiabilidade.
+
 
 ## Contribuindo
 
