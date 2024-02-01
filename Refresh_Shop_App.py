@@ -94,13 +94,13 @@ class RefreshShopApp(MDApp):
         global mystic_count
         while True:
             try:
-                mystic = pg.locateOnScreen(mystic_image, confidence=0.6)
+                mystic = pg.locateOnScreen(mystic_image, confidence=0.8)
                 if mystic is not None:
                     pg.moveTo(mystic)
                     pg.moveRel(700, 30)
                     pg.click()
                     buy_mystic = pg.locateOnScreen(
-                        buy_mystic_image, confidence=0.6)
+                        buy_mystic_image, confidence=0.8)
                     pg.click(buy_mystic)
                     time.sleep(1)
                     mystic_count += 1
@@ -113,12 +113,12 @@ class RefreshShopApp(MDApp):
         global bm_count
         while True:
             try:
-                bm = pg.locateOnScreen(bm_image, confidence=0.6)
+                bm = pg.locateOnScreen(bm_image, confidence=0.8)
                 if bm is not None:
                     pg.moveTo(bm)
                     pg.moveRel(700, 30)
                     pg.click()
-                    buy_bm = pg.locateOnScreen(buy_bm_image, confidence=0.6)
+                    buy_bm = pg.locateOnScreen(buy_bm_image, confidence=0.8)
                     pg.click(buy_bm)
                     time.sleep(1)
                     bm_count += 1
@@ -141,10 +141,10 @@ class RefreshShopApp(MDApp):
             time.sleep(1)
             self.find_bm()
 
-            refresh = pg.locateOnScreen(refresh_image, confidence=0.6)
+            refresh = pg.locateOnScreen(refresh_image, confidence=0.8)
             pg.click(refresh)
 
-            confirm = pg.locateOnScreen(confirm_image, confidence=0.6)
+            confirm = pg.locateOnScreen(confirm_image, confidence=0.8)
             pg.click(confirm)
             time.sleep(1)
             refresh_count += 1
