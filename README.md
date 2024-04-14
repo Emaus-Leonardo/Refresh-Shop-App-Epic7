@@ -2,8 +2,6 @@
 
 Este é um programa de automação escrito em Python com a biblioteca PyAutoGUI e a estrutura de interface gráfica KivyMD. O objetivo do programa é automatizar o processo de atualização de uma loja virtual em um jogo, comprando itens específicos quando disponíveis.
 
-![refresh shop](https://github.com/Emaus-Leonardo/Refresh-Shop-App-Epic7/assets/126693677/2f71b1e1-dc0d-4ae2-8962-08e3183f47f8)
-
 ## Como funciona
 
 O programa utiliza a biblioteca PyAutoGUI para simular interações de mouse e teclado, e a estrutura de interface gráfica KivyMD para criar uma interface simples para o usuário interagir com o programa.
@@ -39,7 +37,11 @@ O programa utiliza a biblioteca PyAutoGUI para simular interações de mouse e t
 6. Na interface do programa, insira o número desejado de atualizações da loja e clique no botão "Refresh Shop" para iniciar o processo de automação.
 7. Para interromper a automação antes que o número especificado de atualizações seja concluído, clique no botão "Stop Refresh".
 
+![refresh shop](https://github.com/Emaus-Leonardo/Refresh-Shop-App-Epic7/assets/126693677/d14f2e24-a27a-4298-9b3d-f380aecb5457)
+
 Alternativamente, basta colocar o atalho fornecido na pasta com ícone da Luluca ML na área de trabalho para que o programa funcione normalmente.
+
+![refresh shop pasta](https://github.com/Emaus-Leonardo/Refresh-Shop-App-Epic7/assets/126693677/02336684-92de-4cb4-85ac-8b8b6ed3ab7b)
 
 Na interface do programa, insira o número desejado de atualizações da loja e clique no botão "Refresh Shop" para iniciar o processo de automação.
 
@@ -49,6 +51,8 @@ Para interromper a automação antes que o número especificado de atualizaçõe
 ## Configurando a Resolução do Emulador LDPlayer
 
 Se você estiver utilizando o emulador LDPlayer para executar o programa em um ambiente de desenvolvimento, pode ser útil ajustar a resolução do emulador para corresponder à resolução esperada pelo programa. Aqui está um guia rápido sobre como fazer isso:
+
+![refresh shop ldplayer](https://github.com/Emaus-Leonardo/Refresh-Shop-App-Epic7/assets/126693677/7df605a9-f222-4e1c-a6b6-16aa81cb0782)
 
 1. **Abra as configurações do emulador**: No LDPlayer, abra o menu lateral e clique no ícone de engrenagem para abrir as configurações do emulador.
 
