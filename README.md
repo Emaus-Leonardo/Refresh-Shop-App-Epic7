@@ -2,6 +2,8 @@
 
 Este é um programa de automação escrito em Python com a biblioteca PyAutoGUI e a estrutura de interface gráfica KivyMD. O objetivo do programa é automatizar o processo de atualização de uma loja virtual em um jogo, comprando itens específicos quando disponíveis.
 
+![refresh shop](https://github.com/Emaus-Leonardo/Refresh-Shop-App-Epic7/assets/126693677/2f71b1e1-dc0d-4ae2-8962-08e3183f47f8)
+
 ## Como funciona
 
 O programa utiliza a biblioteca PyAutoGUI para simular interações de mouse e teclado, e a estrutura de interface gráfica KivyMD para criar uma interface simples para o usuário interagir com o programa.
