@@ -37,7 +37,11 @@ O programa utiliza a biblioteca PyAutoGUI para simular interações de mouse e t
 6. Na interface do programa, insira o número desejado de atualizações da loja e clique no botão "Refresh Shop" para iniciar o processo de automação.
 7. Para interromper a automação antes que o número especificado de atualizações seja concluído, clique no botão "Stop Refresh".
 
+![refresh shop](https://github.com/Emaus-Leonardo/Refresh-Shop-App-Epic7/assets/126693677/d14f2e24-a27a-4298-9b3d-f380aecb5457)
+
 Alternativamente, basta colocar o atalho fornecido na pasta com ícone da Luluca ML na área de trabalho para que o programa funcione normalmente.
+
+![refresh shop pasta](https://github.com/Emaus-Leonardo/Refresh-Shop-App-Epic7/assets/126693677/02336684-92de-4cb4-85ac-8b8b6ed3ab7b)
 
 Na interface do programa, insira o número desejado de atualizações da loja e clique no botão "Refresh Shop" para iniciar o processo de automação.
 
@@ -48,13 +52,15 @@ Para interromper a automação antes que o número especificado de atualizaçõe
 
 Se você estiver utilizando o emulador LDPlayer para executar o programa em um ambiente de desenvolvimento, pode ser útil ajustar a resolução do emulador para corresponder à resolução esperada pelo programa. Aqui está um guia rápido sobre como fazer isso:
 
+![refresh shop ldplayer](https://github.com/Emaus-Leonardo/Refresh-Shop-App-Epic7/assets/126693677/7df605a9-f222-4e1c-a6b6-16aa81cb0782)
+
 1. **Abra as configurações do emulador**: No LDPlayer, abra o menu lateral e clique no ícone de engrenagem para abrir as configurações do emulador.
 
 2. **Acesse as configurações de resolução**: Dentro das configurações, localize a seção relacionada à resolução da tela. Isso pode estar sob uma categoria como "Tela" ou "Exibição".
 
 3. **Selecione a resolução desejada**: Escolha a resolução desejada para o seu ambiente de teste. Você pode selecionar uma das resoluções predefinidas ou definir uma resolução personalizada.
 
-4. OBS: troque a resolução para 1600 x 900 para que o programa funcione corretamente.
+4. OBS: troque a resolução para 1550 x 850 para que o programa funcione corretamente.
 
 5. **Aplique as alterações e reinicie o emulador**: Após selecionar a resolução desejada, aplique as alterações e reinicie o emulador para que as novas configurações entrem em vigor.
 
