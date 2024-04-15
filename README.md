@@ -1,4 +1,4 @@
-# Refresh Shop Automation
+# Refresh Shop Automation BETA
 
 Este é um programa de automação escrito em Python com a biblioteca PyAutoGUI e a estrutura de interface gráfica KivyMD. O objetivo do programa é automatizar o processo de atualização de uma loja virtual em um jogo, comprando itens específicos quando disponíveis.
 
