@@ -3,7 +3,7 @@ import pyautogui as pg
 import time
 from kivymd.app import MDApp
 from kivymd.uix.label import MDLabel
-from kivymd.uix.button import MDFlatButton
+from kivy.uix.button import Button
 from kivymd.uix.textfield import MDTextField
 from kivy.uix.boxlayout import BoxLayout
 from kivy.config import Config
@@ -48,13 +48,13 @@ class RefreshShopApp(MDApp):
         buttons_layout = BoxLayout(orientation='horizontal', spacing=10)
 
         # Botão para iniciar o refresh
-        button_refresh = MDFlatButton(
-            text="Refresh Shop", on_release=self.start_refresh, md_bg_color=(0, 0.7, 0.7, 1))
+        button_refresh = Button(
+            text="Refresh Shop", on_release=self.start_refresh, background_color=(0, 0.7, 0.7, 1))
         buttons_layout.add_widget(button_refresh)
-
+ 
         # Botão para parar o refresh
-        button_stop = MDFlatButton(
-            text="Stop Refresh", on_release=self.stop_refresh, md_bg_color=(0.9, 0.2, 0.2, 1))
+        button_stop = Button(
+            text="Stop Refresh", on_release=self.stop_refresh, background_color=(0.9, 0.2, 0.2, 1))
         buttons_layout.add_widget(button_stop)
 
         # Adiciona os botões ao layout principal
@@ -79,6 +79,7 @@ class RefreshShopApp(MDApp):
             mystic_count = 0
             running = True
             threading.Thread(target=self.refresh_shop).start()
+            
             self.label_searching.text = "Looking for BM and Mystic"
         except ValueError:
             self.text_completed.text = "Please enter a valid number."
